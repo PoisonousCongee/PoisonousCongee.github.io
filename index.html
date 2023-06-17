@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>一碗毒粥</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>欢迎来到一碗毒粥</h1>  
-    </main>
-	<script src="index.js"></script>
-  </body>
+</head>
+<frameset rows="15%, 70%, 15%", frameborder="0">
+  <noframes>
+    <body>你的浏览器不支持显示框架</body>
+  </noframes>
+  <frame src="top.html" />
+  <frameset cols="20%,80%">
+    <frame src="left.html" />
+    <frame src="right.html" scrolling="yes"/>
+  </frameset>
+  <frame src="bottom.html" />
+</frameset>
 </html>
